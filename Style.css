@@ -1,0 +1,63 @@
+/* General document styling */
+body {
+    background-color: lightgrey; /* Light grey background */
+    font-family: Arial, sans-serif; /* Arial font family */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+header {
+    background-color: #4a6fa5; /* Blue background color */
+    color: white; /* White text color */
+    text-align: center; /* Centered text */
+    padding: 20px 0; /* Padding top and bottom */
+}
+
+/* Navigation bar styling */
+nav {
+    background-color: #333; /* Dark background color */
+    padding: 10px 0; /* Padding top and bottom */
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Center the navigation items */
+}
+
+nav ul li {
+    display: inline; /* Display items horizontally */
+    margin: 0 15px; /* Space between items */
+}
+
+nav ul li a {
+    color: white; /* White text color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Bold text */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Main content styling */
+main {
+    background-color: #f8f9fa; /* Light background color */
+    padding: 20px; /* Padding around content */
+    margin: 20px auto; /* Center the main content */
+    max-width: 800px; /* Limit width for better readability */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Footer styling */
+footer {
+    background-color: #333; /* Dark background color */
+    color: white; /* White text color */
+    text-align: center; /* Centered text */
+    padding: 10px 0; /* Padding top and bottom */
+    position: fixed; /* Fixed position at bottom */
+    bottom: 0;
+    width: 100%;
+}
